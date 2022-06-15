@@ -1,0 +1,454 @@
+.hd_home {
+    border-bottom: 2px solid #4C5BD4;
+}
+/* banner */
+.banner {
+    height: 709px; 
+    background-color: white;
+    background-image: linear-gradient(#F7F7F7, white);
+    padding-top: 52px;
+}
+.bn_left {
+    position: absolute;
+    margin: 110px 0 0 50px;
+}
+.banner .bn_t1{
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+.bn_t2 {
+    width: 530px;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 45px;
+    margin-bottom: 23px;
+}
+.banner .bn_t3 {
+    width: 480px;
+    margin-bottom: 30px;
+}
+.bn_t4 {
+    font-size: 22px;
+    line-height: 30px;
+    margin-right: 12px;
+    margin-top: 2px;
+}
+.mua_ngay {
+    border: 1px solid #474747;
+    padding: 9px 0px;
+    width: 177px;
+}
+.mua_ngay::after {
+    content: "";
+    width: 24px;
+    height: 20px;
+    background: url(../images/mt_den.svg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+/* uu diem */
+.uu_diem, .hdong_ct, .cac_buoc, .video_hd {
+    margin: auto;
+    max-width: 1366px;
+}
+.uu_diem {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 150px;
+}
+.ud_text {
+    font-size: 18px;
+}
+.ud_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 11%;
+}
+.ud_t1 {
+    margin-bottom: 37px;
+}
+.ud_t2 , .ud_t3 {
+    margin-bottom: 20px;
+}
+.ud_t4 {
+    margin-left: 10px;
+}
+li.ud_t4 {
+    list-style-type: disc;
+}
+/* hoat dong */
+.hdong_t {
+    text-align: center;
+    margin: 50px 0;
+}
+.hdong_t1 {
+    text-align: justify;
+}
+.hoat_dong {
+    background: white;
+    padding: 0 50px;
+}
+.hdong_ct {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.hdong-group {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.hoat_dong .bn_t3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.hdong_left, .hdong_right {
+    width: 316px;
+    /* margin-top: 100px; */
+}
+.hdong_center {
+    margin: 0px 110px;
+    max-width: 414px;
+}
+.icon_hd {
+    width: 100%;
+}
+/* so huu */
+.buoc_t {
+    margin: 100px 50px;
+}
+.buoc1, .buoc2, .buoc3 {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.b2_right {
+    margin-right: 50px;
+}
+.b1_right, .b3_right {
+    margin-left: 50px;
+}
+.cac_buoc {
+    padding: 0 170px;
+}
+.buoc1 .bn_t3, .cac_buoc .bn_t1 {
+    margin-bottom: 20px;
+}
+.b1_left, .b2_left, .b3_left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* video */
+.video_t {
+    margin-bottom: 80px;
+}
+.pm_video {
+    width: 628px;
+    height: 353px;
+    margin-bottom: 125px;
+}
+
+
+@media only screen and (min-width: 1520px) {
+    .uu_diem, .hdong_ct, .cac_buoc, .video_hd {
+        width: 100%;
+    }
+    .bn_left {
+        margin-left: 100px;
+    }
+    .uu_diem {
+        padding: 50px 200px;
+    }
+    .ud_right {
+        margin-left: 14%;
+    }
+    .hoat_dong {
+        padding: 0 80px;
+    }
+    .cac_buoc {
+        padding: 0 240px;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    .uu_diem, .hdong_ct, .cac_buoc, .video_hd {
+        width: 100%;
+    }
+    .banner {
+        height: 549px;
+        padding-top: 45px;
+    }
+    .icon_banner {
+        height: 504px;
+    }
+    .bn_left {
+        margin: 104px 0 0 30px;
+    }
+    .bn_t2, .hdong_ct .bn_t3 {
+        font-size: 24px;
+        line-height: 33px;      
+    }
+    .mua_ngay {
+        padding: 7px 0;
+    }
+    .banner .bn_t2, .banner .bn_t3 {
+        width: 364px;
+    }
+    .uu_diem {
+        padding: 50px 90px;
+    }
+    .ud_left {
+        width: 247px;
+    }
+    .icon_ud {
+        width: 100%;
+    }
+    .ud_text {
+        font-size: 16px;
+    }
+    .ud_right {
+        margin-left: 80px;
+        width: calc(100% - 247px);
+    }
+    .hdong_t {
+        margin-top: 0;
+    }
+    .hdong_center {
+        max-width: 250px;
+        margin: 0px 30px;
+    }
+    .hdong_t1 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .buoc_t {
+        margin: 50px 20px;
+    }
+    .cac_buoc {
+        padding: 0 80px;
+    }
+    .b1_right, .b2_right, .b3_right {
+        width: 50%;
+    }
+    .icon_buoc1, .icon_buoc2, .icon_buoc3 {
+        width: 100%;
+    }
+    .buoc1, .buoc2, .buoc3 {
+        margin-bottom: 50px;
+    }
+    .bn_t4 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+}
+@media only screen and (max-width: 769px) {
+    .banner {
+        height: 423px;
+    }
+    .icon_banner {
+        height: 378px;
+    }
+    .bn_left {
+        margin: 67px 0 0 30px;
+    }
+    .bn_t2 {
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .mua_ngay {
+        width: 111px;
+        padding: 5px 0;
+    }
+    .bn_t4 {
+        font-size: 14px;
+        line-height: 17px;
+        margin-right: 10px;
+    }
+    .mua_ngay::after {
+        width: 12px;
+        height: 9px;
+    }
+    .banner .bn_t1 {
+        margin-bottom: 30px;
+    }
+    .uu_diem {
+        padding: 50px 40px;
+    }
+    .ud_left {
+        width: 209px;
+    }
+    .ud_right {
+        margin-left: 40px;
+        width: calc(100% - 249px);
+    }
+    .ud_t1 {
+        margin-bottom: 23px;
+    }
+    .ud_text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .hdong_center {
+        max-width: 176px;
+        margin: 0 20px;
+    }
+    .hdong_ct {
+        align-items: flex-start;
+    }
+    .hoat_dong {
+        padding: 20px;
+    }
+    .hdong_ct .bn_t3 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .hdong_t1, .hdong_t1 .color_x {
+        font-size: 14px;
+    }
+    .cac_buoc {
+        padding: 0 50px;
+    }
+    .cac_buoc .bn_t1 {
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .cac_buoc .bn_t3 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .pm_video {
+        width: 458px;
+        height: 257px;
+        margin-bottom: 100px;
+    }
+    .video_t {
+        margin-bottom: 50px;
+    }
+
+}
+@media only screen and (max-width: 500px) {
+    .background_none {
+        height: 378px;
+        position: absolute;
+        background: rgba(0, 0, 0, 0.6);
+        width: 100%;
+    }
+    .banner .bn_t1, .banner .bn_t2, .banner .bn_t3, .banner .bn_t4 {
+        color: #fff;
+    }
+    .banner .mua_ngay {
+        border: 1px solid #fff;
+    }
+    .banner .color_x {
+        color: #4C5BD5;
+    }
+    .bn_t2 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .bn_left {
+        padding: 60px 10px 0;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    .banner .bn_t2, .banner .bn_t3 {
+        width: 238px;
+        margin: 0 auto 20px;
+    }
+    .banner .mua_ngay {
+        margin: auto;
+    }
+    .banner .bn_t1 {
+        margin-bottom: 40px;
+    }
+    .banner .mua_ngay::after {
+        background: url(../images/mt_trang.svg);
+        width: 12px;
+        height: 12px;
+    }
+    .banner .bn_t3 {
+        margin-bottom: 60px;
+    }
+    .uu_diem {
+        flex-direction: column-reverse;
+        padding: 40px 20px;
+    }
+    .ud_right {
+        width: 100%;
+        margin: 0;
+    }
+    .ud_t1 {
+        text-align: center;
+    }
+    .pm_video {
+        width: 100%;
+        padding: 0 34px;
+    }
+    .ud_t4 {
+        margin-left: 0;
+    }
+    .ud_right {
+        margin-bottom: 40px;
+    }
+    .ud_left {
+        margin: auto;
+    }
+    .hdong_t {
+        margin-bottom: 20px;
+    }
+    .hdong-group, .hdong_ct {
+        flex-direction: column;
+    }
+    .hdong_left {
+        margin-bottom: 20px;
+    }
+    .hdong_left, .hdong_right {
+        width: 100%;
+    }
+    .hdong_right {
+        margin-bottom: 40px;
+    }
+    .buoc_t {
+        margin: 40px 20px;
+    }
+    .cac_buoc {
+        padding: 0 20px;
+    }
+    .b1_right, .b2_right, .b3_right {
+        width: 50%;
+    }
+    .b1_right, .b3_right {
+        margin-left: 10px;
+    }
+    .b2_right {
+        margin-right: 10px;
+    }
+    .video_t {
+        margin-bottom: 40px;
+    }
+    .pm_video {
+        margin-bottom: 40px;
+    }
+    .hdong_center {
+        max-width: 232px;
+    }
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 376px) {
+    .pm_video {
+        height: 171px;
+    }
+    
+    
+}

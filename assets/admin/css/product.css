@@ -1,0 +1,48 @@
+img {
+    object-fit: cover;
+}
+/* thêm sản phẩm  */
+.hide {
+    width: 0;
+    height: 0;
+    border: 0;
+    display: block;
+}  
+.hidden {
+    display: none !important;
+}
+.show_flex {
+    display: flex !important;
+} 
+.img_product {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    border: 1px solid #CCCCCC;
+}
+.btn_choose_img {
+    height: 36px;
+}
+/* phương thêm  */
+.none{
+    display: none !important;
+}
+.block{
+    display: block !important;
+}
+.thu_chon {
+    margin-right: 30px;
+}
+.thang_chon {
+    margin-right: 38px;
+}
+.ngay_chon {
+    margin-right: 10px;
+}
+.duyet {
+    margin-right: 15px;
+}
+.tableExcel {
+    visibility: hidden;
+    max-height: 10px;
+}

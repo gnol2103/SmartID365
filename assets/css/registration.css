@@ -1,0 +1,268 @@
+.mb_20 {
+    margin-bottom: 20px;
+}
+
+.checkbox_none {
+    width: 0;
+    height: 0;
+    border: 0;
+    display: flex;
+}
+
+.err-red .error,
+.warning {
+    font-style: italic;
+    color: #ff0000;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 5px;
+    width: 100%;
+    text-align: right;
+}
+
+.registration {
+    background-image: url(../images/background.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 102px 100px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reg_right {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    padding: 40px 50px 30px;
+    width: 550px;
+}
+
+.form_input {
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 8px 20px;
+}
+
+.form_label {
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    width: 100%;
+}
+
+.form_checkbox .form_label {
+    margin-bottom: 0;
+}
+
+.reg_right .bn_t1 {
+    color: #000000;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.reg_right .color_x {
+    color: #4C5BD5;
+}
+
+.form_checkbox {
+    display: flex;
+}
+
+.checkbox_input {
+    width: 26px;
+    height: 26px;
+}
+
+.form_checkbox .form_label {
+    width: 100%;
+    margin-left: 10px;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.btn_reg {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.form_p {
+    text-align: right;
+}
+
+.login {
+    height: 100vh;
+}
+
+.reg_right .hd_left {
+    display: none;
+}
+
+.reg_right .logo_site {
+    width: 132.58px;
+    height: 30px;
+}
+
+.form_p .color_x {
+    margin-bottom: 20px;
+}
+
+.see_log::after,
+.see_log_res::after {
+    content: "";
+    float: left;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 6px;
+    right: 10px;
+    background: url(../images/eye.svg)no-repeat;
+    cursor: pointer;
+}
+
+.no_see_log::after {
+    background: url(../images/eye-slash.svg)no-repeat;
+}
+
+.see_log,
+.see_log_res {
+    position: relative;
+    float: right;
+}
+
+
+/* phương thêm  */
+
+.form_birthday {
+    display: flex;
+    justify-content: space-between;
+}
+
+.control_input {
+    width: 49%;
+}
+
+.t_padding {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.error_birth {
+    color: red;
+}
+
+
+/* ---------- */
+
+
+/* modal  */
+
+.modal-content {
+    box-shadow: 0px 2px 30px rgb(0 0 0 / 15%);
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.modal-dialog-centered {
+    max-width: 550px;
+}
+
+.modal-title {
+    font-size: 36px;
+    line-height: 49px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.modal-header,
+.modal-body,
+.modal-footer {
+    border: 0;
+}
+
+.modal-body {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.modal-footer .btn_x {
+    padding: 6px 18px;
+    width: 130px;
+    text-align: center;
+}
+
+.modal-footer a.btn_x:hover {
+    color: #FFFFFF;
+}
+
+.link_login {
+    margin-left: 50px;
+}
+
+.modal-content .link_home {
+    margin-right: 25px;
+}
+
+.modal-content .link_login {
+    margin-left: 25px;
+}
+
+@media only screen and (min-width: 1520px) {
+    .registration {
+        padding: 102px 150px 50px;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    .reg_left {
+        display: none;
+    }
+    .registration {
+        justify-content: center;
+    }
+    .reg_right .hd_left {
+        display: inline-block;
+    }
+    .reg_right .logo_site {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .registration {
+        padding: 75px 18px 50px;
+    }
+    .reg_right {
+        width: 100%;
+        padding: 20px;
+    }
+    .reg_right .bn_t1 {
+        margin-bottom: 30px;
+        font-size: 24px;
+        line-height: 33px;
+    }
+    .reg_right .bn_t1,
+    .modal-title {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .modal-content {
+        padding: 15px;
+    }
+    .modal-content .link_home {
+        margin-right: 10px;
+    }
+    .modal-content .link_login {
+        margin-left: 10px;
+    }
+    .k_form {
+        width: 100%;
+    }
+}

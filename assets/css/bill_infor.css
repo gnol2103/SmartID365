@@ -1,0 +1,192 @@
+button.btn_t, button.k_tb  {
+    outline: none;
+}
+.bank_text, .note2, .title_bill, .text_bold {
+    font-weight: bold;
+}
+.name_bank, .text_x, .bank_text, .note2 {
+    color: #4C5BD4;
+}
+.text_x {
+    margin-left: 10px;
+}
+.bill_infor {
+    padding-top: 52px;
+}
+.title_bill {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 36px;
+    line-height: 49px;
+}
+.ctn_bill {
+    width: 966px;
+    margin: auto;
+}
+.btn_t {
+    width: 200px;
+    height: 76px;
+    padding: 10px;
+}
+.btn_t, .note1, .note2, .bank_info_b, .bank_c, .bank_text {
+    margin-bottom: 20px;
+}
+.icon_bank {
+    object-fit: contain;
+    width: 100%;
+    height: 53px;
+}
+.k_tb, .bank_c, .btn_t {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+}
+.bank_c {
+    width: 525px;
+    padding: 25px;
+    position: relative;
+}
+.bank_text, .name_bank {
+    font-size: 18px;
+    line-height: 25px;
+}
+.bank_t1 {
+    margin-bottom: 10px;
+}
+.k_tb {
+    border: 0;
+    padding: 15px;
+    max-width: calc(100%/4 - 48px);
+    margin-right: 40px;
+    align-items: center;
+}
+.k_tb:last-child {
+    margin-right: 0;
+}
+.text_tb {
+    text-align: left;
+    margin-left: 15px;
+}
+.notification {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+.bank_l, .bank_r {
+    display: flex;
+    flex-direction: column;
+}
+.bank_info_b {
+    display: flex;
+    justify-content: space-between;
+}
+.bank_none {
+    display: none;
+}
+.k_icon {
+    width: 111px;
+    height: 37px;
+    position: absolute;
+    right: 25px;
+}
+.img_bank {
+    width: 100%;
+}
+.k_note {
+    margin: 0 70px;
+}
+@media only screen and (max-width: 1025px) { 
+    .bill_infor {
+        padding-top: 45px;
+    }
+    .bank_l, .bank_r, .bank_info_b {
+        display: none;
+    }
+    .bank_none {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 16px;
+    }
+    .btn_t {
+        width: calc(100%/4 - 15px);
+        margin: 0 20px 20px 0;
+    }
+    .btn_t:nth-child(4n-4) {
+        margin-right: 0;
+    }
+    .ctn_bill {
+        width: 100%;
+        padding: 0 66px;
+    }
+    .bank_c {
+        margin: 0 auto 36px;
+    }
+    .k_tb {
+        max-width: calc(100%/4);
+    }
+    .k_note {
+        margin: 0 30px;
+    }
+}
+@media only screen and (max-width: 769px) {
+    .ctn_bill {
+        width: 100%;
+        padding: 0 24px;
+    }
+    .title_bill {
+        margin-bottom: 30px;
+    }
+    .k_tb {
+        margin-right: 10px;
+    }
+    .text_tb {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .title_bill {
+        margin-top: 35px;
+        font-size: 24px;
+        line-height: 33px;
+    }
+    .ctn_bill {
+        padding: 0 15px;
+    }
+    .btn_t {
+        width: calc(100%/2 - 8px);
+    }
+    .btn_t:nth-child(4n-4) {
+        margin-right: 15px;
+    }
+    .btn_t:nth-child(2n-2), .k_tb:nth-child(2n-2) {
+        margin-right: 0;
+    }
+    .bank_c {
+        width: 100%;
+        height: auto;
+        padding: 20px 10px;
+    }
+    .bank_text, .name_bank {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .note1, .note2 {
+        margin-bottom: 20px;
+    }
+    .notification {
+        flex-wrap: wrap;
+    }
+    .k_tb, .btn_t {
+        margin: 0 15px 15px 0;
+    }
+    .k_tb {
+        max-width: calc(100%/2 - 8px);
+    }
+    .k_note {
+        margin: 0;
+    }
+    .k_icon {
+        display: none
+    }
+}

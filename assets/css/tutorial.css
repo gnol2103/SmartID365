@@ -1,0 +1,76 @@
+.rotate180 {
+    transform: rotate(180deg);
+}
+.hd_hd {
+    border-bottom: 2px solid #4C5BD4;
+}
+.tutorial {
+    padding: 52px 170px 100px;
+    width: 100%;
+}
+.tt_title {
+    text-align: center;
+    margin: 50px 0;
+}
+.k_collapse {
+    background: #FFFFFF;
+    box-shadow: 0px 15px 48px -10px rgba(85, 85, 85, 0.15);
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+}
+.tuto_t1 {
+    font-weight: bold;
+    margin-right: 15px;
+}
+.collapse_body {
+    margin: 30px 20px 0;
+    text-align: justify;
+}
+button.tuto_btn {
+    outline: none;
+    cursor: pointer;
+}
+.tutorial_k {
+    margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 1520px) {
+    .tutorial {
+        width: 1026px;
+        padding: 52px 0 100px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 1025px) {
+    .tutorial {
+        padding: 52px 100px 100px;
+    }
+    .tutorial .bn_t1 {
+        font-size: 36px;
+        line-height: 49px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .icon_mt {
+        width: 21px;
+        height: 10px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .tt_title {
+        margin: 40px 0;
+    }
+    .tutorial .bn_t1 {
+        font-size: 24px;
+        line-height: 33px;
+    }
+    .tutorial {
+        padding: 52px 10px 100px;
+    }
+    .k_collapse {
+        padding: 10px;
+        min-height: 62px;
+        align-items: center;
+    }
+}

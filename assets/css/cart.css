@@ -1,0 +1,249 @@
+.mb_20 {
+    margin-bottom: 20px;
+}
+.cart .cart_t3, .ctn_cart .bn_t3, .order_l, .btn_payment, .ctn_order .total_money, .btn_order {
+    font-weight: bold;
+}
+.err-red .error {
+    font-style: italic;
+    color: #ff0000;
+    margin-top: 5px;
+    width: 100%;
+    text-align: right;
+}
+.user_phone::-webkit-inner-spin-button, 
+.user_phone::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+.cart {
+    padding: 52px 100px 100px;
+}
+.cart .bn_t1 {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 36px;
+    line-height: 49px;
+}
+.cart .bn_t3 {
+    font-size: 24px;
+    line-height: 33px;
+}
+.cart_l {
+    width: calc(100% - 466px)
+}
+.k_promotion, .k_order, .k_sp, .k_payment {
+    background: #FFFFFF;
+    box-shadow: 0px 15px 48px -10px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+.ctn_order, .btn_payment {
+    margin-top: 20px;
+}
+.k_sp {
+    padding: 10px 20px;
+    position: relative;
+}
+.k_sp .btn_dlt_pro {
+    right: 20px;
+}
+.cart_r {
+    width: 416px;
+    margin-left: 50px;
+}
+.k_cart {
+    display: flex;
+}
+.k_promotion {
+    padding: 18px 20px;
+}
+.input_gh, .input_km, .select2-results__options, .select2-selection__rendered, .font_14, .err-red .error {
+    font-size: 14px;
+    line-height: 19px;
+}
+.input_gh, .input_km {
+    color: #666666;
+}
+.input_km {
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    padding: 8px 10px;
+    width: calc(100% - 122px);
+    margin-right: 20px;
+}
+.btn_km {
+    padding: 7px 20px;
+}
+.k_order {
+    padding: 20px;
+}
+.btn_payment, .btn_order {
+    border-radius: 5px;
+    width: 100%;
+    padding: 7px 0;
+}
+.k_payment {
+    display: none;
+}
+/* thanh toán */
+.payment_show {
+    display: flex;
+    justify-content: space-between;
+}
+.payment_show .k_cart {
+    flex-direction: column;
+}
+.payment_show .cart_r, .payment_show .cart_l {
+    width: 100%;
+}
+.payment_show .cart_r {
+    margin-left: 0;
+}
+.payment_show .k_cart, .payment_show .k_payment {
+    width: calc(100%/2 - 25px);
+}
+.payment_show .btn_payment {
+    display: none;
+}
+.payment_show .k_payment {
+    display: block;
+    padding: 20px;
+}
+.font_15 {
+    font-size: 15px;
+    line-height: 20px;
+}
+.select2-container, .input_gh {
+    margin-top: 8px;
+}
+.input_gh {
+    padding: 8px 20px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #CCCCCC;
+}
+.k_city , .k_district {
+    width: calc(100%/2 - 10px);
+}
+.select2-container--default .select2-selection--single {
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+    height: 37px;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    padding: 0 30px 0 20px;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    margin: 2px 10px 0 0;
+}
+.select2-container--default.select2-container--disabled .select2-selection--single {
+    background-color: #FFFFFF;
+}
+.order_r {
+    font-size: 18px;
+    line-height: 25px;
+}
+.cart .cart_t3 {
+    color: #474747;
+}
+
+@media only screen and (min-width: 1520px) {
+    .ctn_cart {
+        max-width: 1166px;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 1025px) {
+    .k_cart {
+        flex-direction: column;
+    }
+    .cart_l, .cart_r {
+        width: 100%;
+    }
+    .cart_r {
+        margin-left: 0;
+    }
+    .cart {
+        padding: 45px 80px 100px;
+    }
+    /* thanh toán */
+    .payment_show {
+        flex-direction: column;
+    }
+    .payment_show .k_cart, .payment_show .k_payment {
+        width: 100%;
+    }
+    .k_center {
+        width: 500px;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 769px) {
+    .k_center {
+        width: 100%;
+    }
+    .cart .bn_t1 {
+        margin-bottom: 30px;
+    }
+    .cart {
+        padding: 45px 50px 50px;
+    }
+}
+@media only screen and (max-width: 520px) {
+    .cart .bn_t1 {
+        font-size: 24px;
+        line-height: 33px;
+        margin-top: 35px;
+    }
+    .cart {
+        padding: 45px 10px 30px;
+    }
+    .k_sp {
+        padding: 10px;
+    }
+    .ctn_card {
+        margin-left: 10px;
+    }
+    .cart_t1, .cart_t2, .cart_t3, .input_km, .order_r, .order_l {
+        font-size: 14px;
+        line-height: 19px;      
+    }
+    .tg_value {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .input_km {
+        margin-right: 10px;
+        width: calc(100% - 112px);
+    }
+    .k_order, .k_promotion, .payment_show .k_payment {
+        padding: 10px;
+    }
+    .k_sp, .k_promotion, .k_order, .k_payment {
+        border-radius: 10px;
+    }
+    .input_gh {
+        padding: 8px 10px;
+    }
+    .select2-container--default .select2-selection--single .select2-selection__rendered {
+        padding: 0 20px 0 10px;
+    }
+    .select2-container--default .select2-selection--single .select2-selection__arrow {
+        margin-right: 5px;
+    }
+    .k_payment .k_address {
+        flex-direction: column;
+    }
+    .k_city, .k_district {
+        width: 100%;
+    }
+    .k_city {
+        margin-bottom: 20px;
+    }
+    .payment_show .k_payment {
+        margin-top: 20px;
+    }
+}
+
